@@ -1,0 +1,323 @@
+.container{
+    height: 100vh;
+    width: 100rem;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 93vh 7vh;
+    grid-template-columns: 21% 79%;
+    grid-gap: 0.6rem;
+}
+
+body{
+    overflow: hidden;
+}
+
+*{ color: #b3b3b3;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Yantramanav', sans-serif;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+.sidebar{
+    background-color: black;
+    overflow: hidden;
+}
+
+.nav{
+    background-color: #121212;
+    margin: 0.5rem;
+    line-height: 3rem;
+    border-radius:0.7rem;
+    padding: 0.5rem 0;
+}
+
+.nav i{
+    display: inline;
+    padding: 0 2rem ;
+    margin-left: -1rem;
+    margin-right: -0.6rem;
+}
+
+.nav h3{
+    display: inline;
+}
+  
+a{
+    text-decoration: none;
+}
+
+.music_player{
+    background-color: azure;
+    grid-column: 1/3;
+    overflow: hidden;
+}
+
+.lib{
+    background: #121212;
+    border-radius: 0.7rem;
+    
+    padding: 0.5rem;
+    margin: 0.5rem;
+    
+}
+
+.your h3{
+    display: inline;
+    font-weight: 600;
+    position: relative;
+    bottom:0.4rem ;
+}
+
+.your i{
+    display: inline;
+    position: relative;
+    bottom: 0.3rem;
+    left: 9.0rem;
+}
+
+.your span{
+    margin-top: 0.7rem;
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+.create{
+    background-color: #242424;
+    border-radius: 0.7rem;
+    line-height: 2.5rem ;
+    padding-left: 1.4rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+.create h4{
+    color: white;
+}
+
+.create p{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.create span{
+    background-color: white;
+    color: black;
+    border-radius: 2.5rem;
+    padding: 0.4rem 0.9rem;
+    font-weight: 700;
+}
+
+.create span:hover{
+    transform: scale(10.5rem);
+}
+
+.browse{
+    background-color: #242424;
+    border-radius: 0.7rem;
+    line-height: 2.5rem ;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1.4rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.browse h4{
+    color: white;
+}
+
+.browse p{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.browse span{
+    background-color: white;
+    color: black;
+    border-radius: 2.5rem;
+    padding: 0.4rem 0.9rem;
+    font-weight: 700;
+}
+
+.your{
+    margin-left: -0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.scroll{
+   
+    overflow: auto;
+}
+
+.extra{
+    margin-top: 2rem;
+    font-size: x-small;
+    padding-left: 1rem;
+    line-height: 1.5rem;
+}
+
+.extra a{
+    margin-right: 1rem;
+    font-weight: lighter;
+}
+
+.sidebar button{
+    background-color: #000;
+    border: 0.1px solid grey;
+    color: #fff;
+    border-radius: 2.5rem;
+    height: 30px;
+    width:95px;
+    margin-top: 1.2rem;
+    margin-left: 1.6rem;
+    font-size: 1rem;
+}
+
+button i{
+    display: inline;
+    margin: 0.2rem 0.3rem 0.2rem 0.23rem;
+    font-weight: 400;
+}
+
+button h4{
+    display: inline;
+    margin:0.2rem 0.23rem 0.1rem 0rem ;
+    position: relative;
+    bottom: 2px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+h3:hover{
+    color: white;
+
+}
+
+i:hover{
+    color: white;
+}
+
+.nav a{
+    color: white;
+    
+}
+
+i{
+    opacity: 0.7;
+}
+
+i:hover{
+    opacity: 1;
+}
+
+.sidebar .nav .home a{
+    color: white;
+}
+
+#house{
+    color: black;
+}
+
+.main{
+   overflow:auto;
+   display: flex;
+   flex-direction: column;
+   width: 172vh ;
+
+   margin-left: -0.5rem;
+}
+
+#left{
+    transform:rotate(180deg) ;
+}
+
+.recent{
+    background-color:inherit;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.card{
+    border: 0 solid grey;
+    background-color: rgb(20, 19, 19);
+    display: inline-block;
+    width: 9rem;
+    border-radius: 0.7rem;
+}
+
+.card img{
+    width: 100%;
+    height: inherit;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+}
+
+.card-title{
+    font-size: 1rem;
+}
+
+.card-text{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    margin: 1rem;
+    
+}
+
+.cardss{
+    justify-self: flex-start;
+}
+
+.left_right{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.left{
+    justify-self:flex-start;
+    transform: scale(1.2);
+    margin:1.3rem;
+}
+
+.right{
+    justify-self:flex-end;
+    margin-right: 5rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+    margin-right: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.head a{
+    margin-right: 1rem;
+}
+
+.recent h2{
+    margin: 1rem 0.5rem;
+
+}
+.recent .card{
+    margin-left: 1rem;
+
+}
+
